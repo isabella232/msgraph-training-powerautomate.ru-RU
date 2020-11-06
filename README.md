@@ -1,0 +1,38 @@
+---
+ms.openlocfilehash: 24aac7ad8709fd70d87f1a2d0d0ceecf99aed2db
+ms.sourcegitcommit: 64947f11d367ffbebbafb700fdfdc20617275f35
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48829733"
+---
+# <a name="microsoft-graph-training-module---create-a-microsoft-graph-json-batch-custom-connector-for-microsoft-power-automate--azure-logic-apps"></a><span data-ttu-id="8d61e-101">Модуль Microsoft Graph Training — создание настраиваемого соединителя Microsoft Graph JSON для Microsoft Power Автоматизация & приложения логики Azure</span><span class="sxs-lookup"><span data-stu-id="8d61e-101">Microsoft Graph Training Module - Create a Microsoft Graph JSON Batch Custom Connector for Microsoft Power Automate & Azure Logic Apps</span></span>
+
+<span data-ttu-id="8d61e-102">В этом модуле вы узнаете, как работать с API пакетной обработки REST JSON для Microsoft Graph для доступа к данным в Office 365.</span><span class="sxs-lookup"><span data-stu-id="8d61e-102">This module will introduce you to working with the Microsoft Graph JSON Batching REST API to access data in Office 365.</span></span> <span data-ttu-id="8d61e-103">Вы узнаете, как создать и настроить настраиваемый соединитель для автоматизации управления питанием (Майкрософт), получить доступ к пакету API Microsoft Graph JSON и использовать настраиваемый соединитель в процессе создания команды Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="8d61e-103">You will learn how to create and configure a custom connector for Microsoft Power Automate, access the the Microsoft Graph JSON Batch API, and use the custom connector in a flow to create a Microsoft Team.</span></span>
+
+## <a name="lab---create-a-microsoft-graph-json-batch-custom-connector-for-microsoft-power-automate--azure-logic-apps"></a><span data-ttu-id="8d61e-104">Лаборатория: Создание настраиваемого соединителя Microsoft Graph JSON для Microsoft Power Автоматизация & приложения логики Azure</span><span class="sxs-lookup"><span data-stu-id="8d61e-104">Lab - Create a Microsoft Graph JSON Batch Custom Connector for Microsoft Power Automate & Azure Logic Apps</span></span>
+
+<span data-ttu-id="8d61e-105">В этой лабораторной работе вы будете использовать API пакетной обработки REST JSON для Microsoft Graph для создания настраиваемого соединителя и приложения для передачи данных.</span><span class="sxs-lookup"><span data-stu-id="8d61e-105">In this lab you will leverage the Microsoft Graph JSON Batching REST API to create a Custom Connector and flow application.</span></span>
+
+- [<span data-ttu-id="8d61e-106">Руководство по автоматизации управления питанием Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="8d61e-106">Power Automate Microsoft Graph tutorial</span></span>](https://docs.microsoft.com/graph/tutorials/powerautomate)
+
+## <a name="contributors"></a><span data-ttu-id="8d61e-107">Авторы</span><span class="sxs-lookup"><span data-stu-id="8d61e-107">Contributors</span></span>
+
+| <span data-ttu-id="8d61e-108">Роли</span><span class="sxs-lookup"><span data-stu-id="8d61e-108">Roles</span></span>       | <span data-ttu-id="8d61e-109">Authors (s)</span><span class="sxs-lookup"><span data-stu-id="8d61e-109">Author(s)</span></span>                                            |
+|-------------|------------------------------------------------------|
+| <span data-ttu-id="8d61e-110">Лабораторные руководства</span><span class="sxs-lookup"><span data-stu-id="8d61e-110">Lab Manuals</span></span> | <span data-ttu-id="8d61e-111">Джон Лиу (Майкрософт MVP, Шарепоинтгурус) @johnnliu</span><span class="sxs-lookup"><span data-stu-id="8d61e-111">John Liu (Microsoft MVP, SharePointGurus) @johnnliu</span></span>  |
+| <span data-ttu-id="8d61e-112">Лабораторные руководства</span><span class="sxs-lookup"><span data-stu-id="8d61e-112">Lab Manuals</span></span> | <span data-ttu-id="8d61e-113">Скелли (Сривилл) @pskelly</span><span class="sxs-lookup"><span data-stu-id="8d61e-113">Pete Skelly (ThreeWill) @pskelly</span></span>                     |
+| <span data-ttu-id="8d61e-114">Лабораторные руководства</span><span class="sxs-lookup"><span data-stu-id="8d61e-114">Lab Manuals</span></span> | <span data-ttu-id="8d61e-115">Айка BAS (Майкрософт) @aycabas</span><span class="sxs-lookup"><span data-stu-id="8d61e-115">Ayca Bas (Microsoft) @aycabas</span></span>                        |
+
+## <a name="version-history"></a><span data-ttu-id="8d61e-116">Журнал версий</span><span class="sxs-lookup"><span data-stu-id="8d61e-116">Version history</span></span>
+
+| <span data-ttu-id="8d61e-117">Версия</span><span class="sxs-lookup"><span data-stu-id="8d61e-117">Version</span></span> | <span data-ttu-id="8d61e-118">Дата</span><span class="sxs-lookup"><span data-stu-id="8d61e-118">Date</span></span>              | <span data-ttu-id="8d61e-119">Комментарии</span><span class="sxs-lookup"><span data-stu-id="8d61e-119">Comments</span></span>                                             |
+|---------|-------------------|------------------------------------------------------|
+| <span data-ttu-id="8d61e-120">1.3</span><span class="sxs-lookup"><span data-stu-id="8d61e-120">1.3</span></span>     | <span data-ttu-id="8d61e-121">24 августа 2020 г.</span><span class="sxs-lookup"><span data-stu-id="8d61e-121">August 24, 2020</span></span>   | <span data-ttu-id="8d61e-122">Обновление для автоматизации управления питанием</span><span class="sxs-lookup"><span data-stu-id="8d61e-122">Updated to Power Automate</span></span>                            |
+| <span data-ttu-id="8d61e-123">1.2</span><span class="sxs-lookup"><span data-stu-id="8d61e-123">1.2</span></span>     | <span data-ttu-id="8d61e-124">27 ноября 2018 г.</span><span class="sxs-lookup"><span data-stu-id="8d61e-124">November 27, 2018</span></span> | <span data-ttu-id="8d61e-125">Подключение к docs.microsoft.com/graph</span><span class="sxs-lookup"><span data-stu-id="8d61e-125">Onboarded to docs.microsoft.com/graph</span></span>                |
+| <span data-ttu-id="8d61e-126">1.1</span><span class="sxs-lookup"><span data-stu-id="8d61e-126">1.1</span></span>     | <span data-ttu-id="8d61e-127">07 ноября 2018 г.</span><span class="sxs-lookup"><span data-stu-id="8d61e-127">November 07, 2018</span></span> | <span data-ttu-id="8d61e-128">Добавлен шаг 6 контента для вызова нескольких операций</span><span class="sxs-lookup"><span data-stu-id="8d61e-128">Added step 6 content for calling multiple operations</span></span> |
+| <span data-ttu-id="8d61e-129">1.0</span><span class="sxs-lookup"><span data-stu-id="8d61e-129">1.0</span></span>     | <span data-ttu-id="8d61e-130">22 октября 2018 г.</span><span class="sxs-lookup"><span data-stu-id="8d61e-130">October 22, 2018</span></span>  | <span data-ttu-id="8d61e-131">Добавление сведений о продуктах, связанных с Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="8d61e-131">Add Microsoft Graph related product breakouts.</span></span>       |
+
+## <a name="disclaimer"></a><span data-ttu-id="8d61e-132">Заявление об отказе от ответственности</span><span class="sxs-lookup"><span data-stu-id="8d61e-132">Disclaimer</span></span>
+
+<span data-ttu-id="8d61e-133">**Этот код предоставляется без каких *-* либо гарантий, явных или подразумеваемых, включая любые подразумеваемые гарантии пригодности для конкретной цели, пригодности к отдельному ОБЪЕМу или ненарушениям.**</span><span class="sxs-lookup"><span data-stu-id="8d61e-133">**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**</span></span>
